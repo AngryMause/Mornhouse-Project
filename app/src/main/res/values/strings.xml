@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mornhouse Project</string>
+    <string name="fact">Fact</string>
+    <string name="random_fact">Random Fact</string>
+    <string name="delete">Delete</string>
+    <string name="write_number">Write number</string>
+</resources>

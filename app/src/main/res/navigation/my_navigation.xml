@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.mornhouseproject.ui.fragment.mainscreens.MainScreenFragment"
+        android:label="List Fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_descriptionFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.mornhouseproject.ui.fragment.secondscreens.DescriptionFragment"
+        android:label="Description Fragment">
+        <argument
+            android:name="fact_id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_secondFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
