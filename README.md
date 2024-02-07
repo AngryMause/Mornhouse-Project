@@ -1,4 +1,5 @@
  Architecture: Single Activity, MVVM. 
+ 
 Tehnology used:Kotlin,  DaggerHilt, Coroutine, Retrofit2, Room, XML(If necessary, I can convert it into a compose).
 
 # MainScreen  
